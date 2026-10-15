@@ -25,7 +25,7 @@ class ModelFilmes {
     }
 
     AlterarStatus(id) {
-        filmes[id].classificacao = !filmes[id].classificacao
+        filmes[id].lancamento = !filmes[id].lancamento
     }
 
     Deletar(id) {
